@@ -1,0 +1,514 @@
+*{
+    margin:0px;
+    padding:0px;
+    outline: 0px;
+}
+body{
+    position: relative;
+}
+.container{
+     height:100%;
+     width:1170px;
+     margin: auto;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+/*preloader css*/
+.perloader_main{
+    background: #fff;
+    position: fixed;
+    z-index: 1000;
+    top : 0;
+    bottom : 0;
+    left: 0;
+    right : 0;
+}
+.perloader_img{
+    position: absolute;
+    top: 50%;
+    left: 36%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+/*header_part starts*/
+
+.header_part{
+    height:110px;
+    width:100%;
+    background-color: #02918c;
+    position: fixed;
+    z-index: 999;
+    transition: .4s;
+    border-radius: 0% 0% 30% 30%;
+    -webkit-transition: .4s;
+}
+.header_part_add{
+    height:80px;
+    transition: .3s;
+    -webkit-transition: .3s;
+    opacity: .8;
+}
+
+
+.logo,
+.menu{
+    height:100%;
+}
+
+.logo{
+    padding-top: 23px;
+    width:30%;
+    display: inline-block;
+    float:left;
+    box-sizing: border-box;
+}
+.menu{
+    width:70%;
+    float:left;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul a{
+    color: white;
+    text-decoration: none;
+}
+.menu ul{
+    float:right;
+}
+.menu ul li{
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 26px 7px;
+    float: left;
+}
+
+/*banner part starts*/
+
+.banner{
+    height:730px;
+    width:100%;
+/*    background-image: url(../images/div_two/banner.jpg);*/
+    background-position: center !important;
+    background-attachment: fixed;
+    background-size: cover !important;
+    text-align: center;
+    position:relative;
+    z-index: 1;
+}
+
+.banner:after{ /*overlay*/
+    content: '';
+    position:absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    background: rgba(0,0,0,.7);
+    z-index: -1;
+}
+
+.banner_elements{
+    padding: 212px 0px;;
+    box-sizing: border-box;
+}
+
+.banner_elements h3{
+    /*padding-top:213px;*/
+    font-size: 30px;
+    color:white;
+}
+.banner_elements h1{
+    padding-top:26px;
+    font-size: 68px;
+    color:white;
+    letter-spacing: 15px;
+    text-transform: uppercase;
+}
+
+.banner_elements h2{
+    padding-top:22px;
+    font-size:18px;
+    color:white;
+}
+.banner_elements img{
+    padding-top:52px;
+    padding-bottom:52px;
+    display:inline-block;
+}
+
+.banner_elements a,
+.button a{
+    text-decoration: none;
+    color: #0b1016;
+    padding: 19px 42px;
+    background-color: #cfc91d;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    border-radius: 0% 0% 40% 40%;
+    box-sizing: border-box;
+}
+
+
+/*banner part ends*/
+
+.heading{
+    font-size: 46px;
+    text-transform: uppercase;
+    color: #02918c;
+    text-align: center;
+}
+
+/*about_me part starts*/
+.about_me,
+.contact_me{
+    height:738px;
+    padding-top:100px;
+}
+
+.about_me h4,
+.contact_me h4{
+    text-align: center;
+    padding-top:32px;
+    font-size: 16px;
+    color:#7e8287;
+}
+
+.about_me p,
+.contact_me p{
+    padding-top: 36px;
+    font-size:16px;
+    color:#7e8287;
+    margin: auto;
+    text-align: center;
+    max-width: 823px;
+}
+
+.about_me span
+.contact_me span{
+    font-size: 23px;
+}
+
+.clr{
+    clear: both;
+}
+.item_1,
+.item_2,
+.item_3,
+.item_4{
+    width:25%;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 36px 58px 54px 58px;
+    margin-top: 85px;
+    border-right:1px #7e8287 solid;
+    float:left;
+}
+/*
+.item_4{
+    border: none;
+}
+*/
+
+.item_1 i,
+.item_2 i,
+.item_3 i,
+.item_4 i{
+    font-size: 25px;
+    color: #02918c;
+}
+
+.item_1 h2,
+.item_2 h2,
+.item_3 h2,
+.item_4 h2{
+    padding-top: 30px;
+    color: #7e8287;
+    font-size: 16px;
+    text-align: center;
+}
+.item_1 h3,
+.item_2 h3,
+.item_3 h3,
+.item_4 h3{
+    padding-top:30px;
+    color: #7e8287;
+    font-size: 11px;
+    text-align: center;
+}
+
+/*about_me part ends*/
+
+/*services part starts */
+.services{
+    margin: auto;
+    height: 728px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../images/div_four/typing.jpg);
+}
+.service_items{
+    width:50%;
+    float:left;
+}
+
+.s_1,
+.s_2,
+.s_3,
+.s_4{
+    width:50%;
+    float:left;
+}
+
+.blank{
+    width:50%;
+    float:left;
+}
+
+.service_elements{
+    padding-top: 74px; 
+}
+
+.service_elements .heading{
+    text-align: left;
+}
+.service_elements h4,
+.service_elements p{
+    color: #7e8287;
+    text-align: left;
+}
+
+.service_elements h4{
+    padding-top: 44px;
+    box-sizing: border-box;
+}
+.service_elements p{
+    padding-top: 32px;
+    box-sizing: border-box;
+}
+
+.s_1,
+.s_2{
+    padding-top:60px;
+    box-sizing: border-box;
+}
+.s_3,
+.s_4{
+    box-sizing: border-box;
+}
+.s_1 h2,
+.s_2 h2,
+.s_3 h2,
+.s_4 h2{
+    padding-top: 17px;
+    color:#7e8287;
+    font-size: 16px;
+}
+.s_1 h3,
+.s_2 h3,
+.s_3 h3,
+.s_4 h3{
+    padding-top: 20px;
+    padding-right: 80px;
+    color:#7e8287;
+    font-size: 11px;
+}
+.s_1 h3,
+.s_2 h3{
+    padding-bottom: 55px;
+}
+
+.s_1 i,
+.s_2 i,
+.s_3 i,
+.s_4 i{
+    text-align: center;
+    font-size: 25px;
+    color:#02918c;
+}
+/*services part ends */
+
+/*my work part starts*/
+.my_work_elements{
+    padding-top: 112px;
+}
+.my_work_elements h4{
+    padding-top: 33px;
+    text-align: center;
+    color:#7e8287;
+}
+.my_work_elements p{
+    padding-top: 30px;
+    text-align: center;
+    color:#7e8287;
+    padding-left:320px;
+    padding-right:320px;
+    padding-bottom: 80px;
+    box-sizing: border-box;
+}
+/*my work part ends*/
+
+/*gallery starts*/
+
+
+.bg_1,
+.bg_2,
+.bg_3,
+.bg_4,
+.bg_5,
+.bg_6,
+.bg_7,
+.bg_8{
+    height:238px;
+    width:25%;
+    float:left;
+}
+
+.portfolio_inner{
+    width: 25%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    border-radius: 25% 25% 25% 25%;
+    margin-top: -3px;
+}
+
+.portfolio_inner img{
+    width: 100%;
+}
+.overly h2,
+.overly h3{
+    text-align: center;
+}
+.overly h2{
+    font-size: 16px;
+    box-sizing: border-box;
+}
+.overly h3{
+    padding-top: 15px;
+    box-sizing: border-box;
+    font-size: 13px;
+}
+.portfolio_inner .overly{
+    position: absolute;
+    box-sizing: border-box;
+    padding: 32px;
+    top: 27px;
+    left: 27px;
+    right: 27px;
+    bottom: 27px;
+    background: #02918c;
+    color: #fff;
+    overflow: hidden;
+    transform: scale(0);
+    transition: .4s;
+}
+
+.portfolio_inner:hover .overly{
+    transform: scale(1);
+}
+/*gallery ends*/
+
+/*about me part starts*/
+.about_me .heading{
+    box-sizing: border-box;
+    padding-top: 20px;
+}
+.about_me p{
+    padding-top: 30px;
+    padding-bottom: 70px;
+    box-sizing: border-box;
+}
+/*about me part ends*/
+
+/*form part starts */
+.form{
+    text-align: center;
+    background-color: #0b0b0b;
+    padding-bottom: 70px;
+}
+.form label{
+    font-size: 16px;
+    padding-top: 70px; 
+    text-transform: uppercase;
+    color: #787c81;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.form input[type=text],
+.form input[type=email]{
+    text-align: center;
+    background: transparent;
+    box-sizing: border-box;
+    border: none;
+    padding-top: 16px;
+    border-bottom: 2px #787c81 solid;
+    width: 683px;
+}
+.form textarea[type=text]{
+    text-align: center;
+    background: transparent;
+    box-sizing: border-box;
+    border: none;
+    resize: none;
+    margin-top: 16px;
+    padding-top: 16px;
+    border-top: 2px #787c81 solid;
+    border-bottom: 2px #787c81 solid;
+    width: 910px;
+}
+
+.button a{
+    text-decoration: none;
+    color: #0b1016;
+    padding-left: 64px;
+    padding-right: 64px;
+    background-color: #cfc91d;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    box-sizing: border-box;
+} 
+.button{
+    margin-top:67px;
+    background: #cfc91d;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+/*form part ends */
+/*my folio part starts*/
+.my_folio{
+    text-align: center;
+    text-transform: uppercase;
+    padding:30px;
+    background-color: black;
+    color:#7e8287;
+}
+/*my folio part ends*/
+
+.backTOtop{
+    font-size: 30px;
+    text-align: center;
+    position: fixed;
+    z-index: 10000;
+    height:45px;
+    width:45px;
+    line-height:45px;
+    color:#CFC91D;
+    border-radius: 50% 0% 50% 0%;
+    background-color: #02918C;
+    right: 30px;
+    bottom: 30px;
+
+    display: none;
+    cursor: pointer;
+}
+.backTOtop:hover{
+    background-color: #02918C;
+}

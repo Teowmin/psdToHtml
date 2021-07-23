@@ -1,0 +1,236 @@
+.clr {
+    clear: both;
+}
+
+/*header css*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+    margin: 0;
+    padding: 0;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+#menu_bar {
+    background-color: #131e29;
+}
+
+#menu_item {
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #fff;
+}
+
+
+
+/*banner css*/
+#banner_text_css h1 {
+    padding-top: 250px;
+}
+
+#banner_text_css p {
+    padding-top: 24px;
+}
+
+#button_css {
+    display: block;
+    padding: 40px 0px 48px 0px;
+}
+
+#banner_text_css h1,
+#banner_text_css p {
+    color: #fff;
+}
+
+#banner_text_css p,
+#banner_text_css h4 {
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+}
+
+#banner_text_css h4 {
+    color: #fff;
+}
+
+#banner_text_css span,
+#banner_text_css h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+#banner_text_css a {
+    padding: 25px 48px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+    border: 2px #fff solid;
+    margin-left: 30px;
+    border-radius: 10px;
+    transition: .4s;
+    -webkit-transition: .4s;
+}
+
+#banner_text_css a:hover {
+    border: 2px #4bcaff solid;
+    background-color: #4bcaff;
+    -webkit-box-shadow: 0px 5px 0px 0px rgba(39, 118, 151, 1);
+    -moz-box-shadow: 0px 5px 0px 0px rgba(39, 118, 151, 1);
+    box-shadow: 0px 5px 0px 0px rgba(39, 118, 151, 1);
+    box-sizing: border-box;
+}
+
+#banner_text_css h4 {
+    padding-top: 9px;
+    display: block;
+}
+
+#banner_text_css i {
+    color: #4bcaff;
+    font-size: 25px;
+    padding: 11px 15px;
+    background-color: #171a1f;
+    border-radius: 50%;
+    margin-left: 22px;
+}
+
+#banner_text_css #android {
+    padding: 11px 12px;
+}
+
+#banner_text_css {
+    padding-top: 30px;
+}
+
+#banner_css_padding {
+    padding-bottom: 116px;
+}
+
+.banner_part {
+    border-bottom: 4px #4bcaff solid;
+}
+
+/*summerize the features*/
+#features {
+    border-bottom: 3px solid #efefef;
+    background-color: #f9f9f9;
+}
+
+#gallery_contents h1,
+#gallery_contents p,
+#feature_contents h1,
+#feature_contents p {
+    margin: 0;
+}
+
+#gallery_contents h1,
+#gallery_contents p #feature_contents h1,
+#feature_contents p {
+    color: #414042;
+}
+
+#gallery_contents h1,
+#feature_contents h1 {
+    padding-top: 50px;
+    font-size: 36px;
+    font-weight: 800;
+    font-family: 'Lato', sans-serif;
+}
+
+#gallery_contents p,
+#feature_contents p {
+    padding-bottom: 72px;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+}
+
+#feature_icon,
+#feature_icon_1,
+#feature_icon_2 {
+    padding: 45px 45px;
+    color: #fff;
+    background-color: #4bcaff;
+    border-radius: 50%;
+    font-size: 45px;
+    -webkit-box-shadow: 0px 0px 0px 5px rgba(239, 239, 239, 1);
+    -moz-box-shadow: 0px 0px 0px 5px rgba(239, 239, 239, 1);
+    box-shadow: 0px 0px 0px 5px rgba(239, 239, 239, 1);
+}
+
+#feature_icon_1 {
+    padding: 45px 55px;
+}
+
+#feature_icon_2 {
+    padding: 45px 40px;
+}
+
+#feature_text h2 {
+    text-transform: uppercase;
+    color: #414042;
+    font-size: 15px;
+    font-weight: 800;
+    font-family: 'Lato', sans-serif;
+    padding-top: 30px;
+}
+
+#feature_text p {
+    color: #414042;
+    font-size: 13px;
+    font-family: 'Lato', sans-serif;
+    padding-top: 27px;
+}
+
+#feature_text {
+    padding: 0px 33px;
+}
+
+#feature_text h2,
+#feature_text h2,
+#feature_text h2 {
+    transition: .4s;
+    -webkit-transition: .4s;
+}
+
+#feature_text h2:hover,
+#feature_text h2:hover,
+#feature_text h2:hover {
+    cursor: pointer;
+    color: #4bcaff;
+}
+
+/*gallery css*/
+
+/*banner_two css*/
+.banner_two_contents h1,
+.banner_two_contents span {
+    font-size: 48px;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    text-shadow: 0px 0px 5px #959595;
+}
+
+.banner_two_contents span {
+    font-weight: 800;
+}
+
+.one p {
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    text-align: left;
+}
